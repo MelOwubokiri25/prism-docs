@@ -11,6 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Foundations', link: '/foundations/variables' },
       { text: 'Components', link: '/components/large-button' },
+
     ],
 
     sidebar: [
@@ -30,7 +31,15 @@ export default defineConfig({
       {
         text: 'Components',
         items: [
-          { text: 'Large Button', link: '/components/large-button' },
+          {
+            text: 'Buttons',
+            items: [
+              { text: 'Large Button', link: '/components/large-button' },
+              { text: 'Small Button', link: '/components/small-button' },
+              { text: 'Action Button', link: '/components/action-button' },
+              { text: 'Segmented Button', link: '/components/segmented-button' },
+            ],
+          },
         ],
       },
     ],
