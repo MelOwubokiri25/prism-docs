@@ -8,24 +8,11 @@
 ---
 
 :::tabs
-== Design
+== Overview
 
 ## Overview
 
 A pill-shaped interactive button available in four styles and multiple states. Height is fixed at 40px with optional leading/trailing icons and a text label.
-
----
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `style` | `"Primary" \| "Secondary" \| "Tertiary" \| "Global"` | `"Primary"` | Visual style of the button |
-| `state` | `"Default" \| "Hover" \| "Active" \| "Success" \| "Warning Default" \| "Warning Hover" \| "Disabled" \| "Loading" \| "Skeleton"` | `"Default"` | Interactive or feedback state |
-| `text` | `string` | `"Button"` | Button label text |
-| `hasLabel` | `boolean` | `true` | Show or hide the text label |
-| `leftIcon` | `boolean` | `false` | Show a leading icon |
-| `rightIcon` | `boolean` | `false` | Show a trailing icon |
 
 ---
 
@@ -37,6 +24,47 @@ A pill-shaped interactive button available in four styles and multiple states. H
 | **Secondary** | Supporting actions alongside a primary button. Outlined, no fill. |
 | **Tertiary** | Low-emphasis actions on light backgrounds. |
 | **Global** | Status-driven states: success, warning, disabled, loading — shared across all styles. |
+
+---
+
+## Content Guidelines
+
+- **Max 30 characters**, single line only
+- Use **action-oriented labels** (verbs): e.g. "Save", "Submit", "Cancel"
+- Editing contexts:
+  - `"Save"` — saves without leaving the page
+  - `"Done"` — leaves a page that autosaves
+  - `"Save & done"` — leaves a page that does not autosave
+
+---
+
+## Icons
+
+- **One icon per button maximum**
+- Leading (left) icon: general actions in LTR layouts
+- Trailing (right) icon: dropdowns, external links, directional arrows, warning indicators
+- Icon and label must share the same colour
+
+---
+
+## Button Groups
+
+- Use **only one Primary** button per group
+- Order (left → right): Secondary → Primary → Action
+- When more than 3 buttons are needed, collapse extras into an **action/overflow menu**
+
+== Specifications
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `style` | `"Primary" \| "Secondary" \| "Tertiary" \| "Global"` | `"Primary"` | Visual style of the button |
+| `state` | `"Default" \| "Hover" \| "Active" \| "Success" \| "Warning Default" \| "Warning Hover" \| "Disabled" \| "Loading" \| "Skeleton"` | `"Default"` | Interactive or feedback state |
+| `text` | `string` | `"Button"` | Button label text |
+| `hasLabel` | `boolean` | `true` | Show or hide the text label |
+| `leftIcon` | `boolean` | `false` | Show a leading icon |
+| `rightIcon` | `boolean` | `false` | Show a trailing icon |
 
 ---
 
@@ -80,45 +108,6 @@ A pill-shaped interactive button available in four styles and multiple states. H
 | Tertiary | `--text/interactive/global` | #55575e |
 | Global Disabled | `--text/disabled` | #91949c |
 | Global Warning / Success | `--text/inverse` | white |
-
----
-
-## Content Guidelines
-
-- **Max 30 characters**, single line only
-- Use **action-oriented labels** (verbs): e.g. "Save", "Submit", "Cancel"
-- Editing contexts:
-  - `"Save"` — saves without leaving the page
-  - `"Done"` — leaves a page that autosaves
-  - `"Save & done"` — leaves a page that does not autosave
-
----
-
-## Icons
-
-- **One icon per button maximum**
-- Leading (left) icon: general actions in LTR layouts
-- Trailing (right) icon: dropdowns, external links, directional arrows, warning indicators
-- Icon and label must share the same colour
-
----
-
-## Button Groups
-
-- Use **only one Primary** button per group
-- Order (left → right): Secondary → Primary → Action
-- When more than 3 buttons are needed, collapse extras into an **action/overflow menu**
-
----
-
-## Accessibility
-
-| Requirement | Guidance |
-|-------------|---------|
-| ARIA labels | Apply `aria-label` or `aria-pressed` so screen readers convey the current active state |
-| Focused state | Use the "Focused" state variant to reflect keyboard navigation |
-| Touch target | Minimum 44px touch target height |
-| Spacing | Minimum 12px between interactive elements to prevent mis-taps |
 
 == Code
 
@@ -206,5 +195,16 @@ export const Example = () => (
 ```
 
 :::
+
+== Accessibility
+
+## Accessibility
+
+| Requirement | Guidance |
+|-------------|---------|
+| ARIA labels | Apply `aria-label` or `aria-pressed` so screen readers convey the current active state |
+| Focused state | Use the "Focused" state variant to reflect keyboard navigation |
+| Touch target | Minimum 44px touch target height |
+| Spacing | Minimum 12px between interactive elements to prevent mis-taps |
 
 :::
