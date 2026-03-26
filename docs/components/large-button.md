@@ -116,3 +116,94 @@ A pill-shaped interactive button available in four styles and multiple states. H
 | Focused state | Use the "Focused" state variant to reflect keyboard navigation |
 | Touch target | Minimum 44px touch target height |
 | Spacing | Minimum 12px between interactive elements to prevent mis-taps |
+
+---
+
+## Code
+
+Install the package:
+
+```bash
+yarn add @pushpay/button
+```
+
+:::code-group
+
+```tsx [Basic usage]
+import React from 'react';
+import { Button } from '@pushpay/button';
+
+export const Example = () => (
+  <Button type="button" displayStyle="primary" displaySize="large">
+    Save
+  </Button>
+);
+```
+
+```tsx [All styles]
+import React from 'react';
+import { Button } from '@pushpay/button';
+
+export const Example = () => (
+  <>
+    <Button type="button" displayStyle="primary" displaySize="large">
+      Primary
+    </Button>
+    <Button type="button" displayStyle="secondary" displaySize="large">
+      Secondary
+    </Button>
+    <Button type="button" displayStyle="tertiary" displaySize="large">
+      Tertiary
+    </Button>
+    <Button type="button" displayStyle="warning" displaySize="large">
+      Warning
+    </Button>
+  </>
+);
+```
+
+```tsx [With icon]
+import React from 'react';
+import { Button } from '@pushpay/button';
+import { AddIcon } from '@pushpay/iconography';
+
+export const Example = () => (
+  <Button type="button" displayStyle="primary" displaySize="large">
+    <AddIcon />
+    <span>Add item</span>
+  </Button>
+);
+```
+
+```tsx [Disabled & loading]
+import React from 'react';
+import { Button } from '@pushpay/button';
+
+export const Example = () => (
+  <>
+    {/* Disabled */}
+    <Button type="button" displayStyle="primary" displaySize="large" disabled>
+      Disabled
+    </Button>
+
+    {/* Loading — swap label for spinner content */}
+    <Button type="button" displayStyle="primary" displaySize="large" disabled aria-label="Saving…">
+      <span aria-hidden="true">Saving…</span>
+    </Button>
+  </>
+);
+```
+
+:::
+
+### Props reference
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `displayStyle` | `"primary" \| "secondary" \| "tertiary" \| "text" \| "warning" \| "unstyled"` | `"unstyled"` | Visual style |
+| `displaySize` | `"large" \| "small"` | `"large"` for primary/secondary/tertiary | Button size |
+| `type` | `"button" \| "submit" \| "reset"` | — | **Required.** HTML button type |
+| `disabled` | `boolean` | `false` | Disables the button |
+| `onClick` | `MouseEventHandler` | — | Click handler |
+| `className` | `string` | — | Additional CSS class |
+| `classes` | `object` | — | JSS class overrides |
