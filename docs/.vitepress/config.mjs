@@ -9,6 +9,7 @@ export default defineConfig({
     logo: { text: '◈' },
 
     nav: [
+      { text: 'Foundations', link: '/foundations/variables' },
       { text: 'Components', link: '/components/large-button' },
     ],
 
@@ -17,6 +18,13 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'Introduction', link: '/' },
+        ],
+      },
+      {
+        text: 'Foundations',
+        items: [
+          { text: 'Variables', link: '/foundations/variables' },
+          { text: 'Styles', link: '/foundations/styles' },
         ],
       },
       {
