@@ -9,8 +9,9 @@ export default defineConfig({
     logo: { text: '◈' },
 
     nav: [
-      { text: 'Foundations', link: '/foundations/variables' },
-      { text: 'Components', link: '/components/large-button' },
+      { text: 'Design Tokens', link: '/foundations/variables' },
+      { text: 'Foundation', link: '/foundation/color-palette' },
+      { text: 'Atoms', link: '/atoms/avatar' },
 
     ],
 
@@ -43,7 +44,15 @@ export default defineConfig({
         items: [
           { text: 'Avatar', link: '/atoms/avatar' },
           { text: 'Badge', link: '/atoms/badge' },
-          { text: 'Button', link: '/atoms/button' },
+          {
+            text: 'Button',
+            items: [
+              { text: 'Large Button', link: '/components/large-button' },
+              { text: 'Small Button', link: '/components/small-button' },
+              { text: 'Action Button', link: '/components/action-button' },
+              { text: 'Segmented Button', link: '/components/segmented-button' },
+            ],
+          },
           { text: 'Checkbox', link: '/atoms/checkbox' },
           { text: 'Divider', link: '/atoms/divider' },
           { text: 'Dot Indicator', link: '/atoms/dot-indicator' },
@@ -60,20 +69,6 @@ export default defineConfig({
           { text: 'Textarea', link: '/atoms/textarea' },
           { text: 'Toggle / Switch', link: '/atoms/toggle' },
           { text: 'Tooltip', link: '/atoms/tooltip' },
-        ],
-      },
-      {
-        text: 'Components',
-        items: [
-          {
-            text: 'Buttons',
-            items: [
-              { text: 'Large Button', link: '/components/large-button' },
-              { text: 'Small Button', link: '/components/small-button' },
-              { text: 'Action Button', link: '/components/action-button' },
-              { text: 'Segmented Button', link: '/components/segmented-button' },
-            ],
-          },
         ],
       },
     ],
