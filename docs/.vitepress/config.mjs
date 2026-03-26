@@ -46,6 +46,8 @@ export default defineConfig({
           { text: 'Badge', link: '/atoms/badge' },
           {
             text: 'Button',
+            link: '/components/large-button',
+            collapsed: true,
             items: [
               { text: 'Large Button', link: '/components/large-button' },
               { text: 'Small Button', link: '/components/small-button' },
