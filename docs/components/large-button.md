@@ -2,10 +2,13 @@
 
 **Component:** `Large Button`
 **Library:** Reskin Library — Prism 1.5
-**Node ID:** `8196:10023`
 **Figma:** [View in Figma](https://www.figma.com/design/FCxJehkjyuzdt6VJ8K2k4i/Reskin-Library---Prism-1.5?node-id=8196-10023)
+**Package:** `@pushpay/button`
 
 ---
+
+:::tabs
+== Design
 
 ## Overview
 
@@ -117,19 +120,35 @@ A pill-shaped interactive button available in four styles and multiple states. H
 | Touch target | Minimum 44px touch target height |
 | Spacing | Minimum 12px between interactive elements to prevent mis-taps |
 
----
+== Code
 
-## Code
-
-Install the package:
+## Install
 
 ```bash
 yarn add @pushpay/button
 ```
 
+---
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `displayStyle` | `"primary" \| "secondary" \| "tertiary" \| "text" \| "warning" \| "unstyled"` | `"unstyled"` | Visual style |
+| `displaySize` | `"large" \| "small"` | `"large"` for primary / secondary / tertiary | Button size |
+| `type` | `"button" \| "submit" \| "reset"` | — | **Required.** HTML button type |
+| `disabled` | `boolean` | `false` | Disables the button |
+| `onClick` | `MouseEventHandler` | — | Click handler |
+| `className` | `string` | — | Additional CSS class |
+| `classes` | `object` | — | JSS class overrides per style key |
+
+---
+
+## Examples
+
 :::code-group
 
-```tsx [Basic usage]
+```tsx [Basic]
 import React from 'react';
 import { Button } from '@pushpay/button';
 
@@ -175,35 +194,17 @@ export const Example = () => (
 );
 ```
 
-```tsx [Disabled & loading]
+```tsx [Disabled]
 import React from 'react';
 import { Button } from '@pushpay/button';
 
 export const Example = () => (
-  <>
-    {/* Disabled */}
-    <Button type="button" displayStyle="primary" displaySize="large" disabled>
-      Disabled
-    </Button>
-
-    {/* Loading — swap label for spinner content */}
-    <Button type="button" displayStyle="primary" displaySize="large" disabled aria-label="Saving…">
-      <span aria-hidden="true">Saving…</span>
-    </Button>
-  </>
+  <Button type="button" displayStyle="primary" displaySize="large" disabled>
+    Disabled
+  </Button>
 );
 ```
 
 :::
 
-### Props reference
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `displayStyle` | `"primary" \| "secondary" \| "tertiary" \| "text" \| "warning" \| "unstyled"` | `"unstyled"` | Visual style |
-| `displaySize` | `"large" \| "small"` | `"large"` for primary/secondary/tertiary | Button size |
-| `type` | `"button" \| "submit" \| "reset"` | — | **Required.** HTML button type |
-| `disabled` | `boolean` | `false` | Disables the button |
-| `onClick` | `MouseEventHandler` | — | Click handler |
-| `className` | `string` | — | Additional CSS class |
-| `classes` | `object` | — | JSS class overrides |
+:::

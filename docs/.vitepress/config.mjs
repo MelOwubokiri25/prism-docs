@@ -1,6 +1,12 @@
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 export default defineConfig({
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    },
+  },
   title: 'Prism Design System',
   description: 'Component documentation for Prism 1.5',
   base: '/prism-docs/',
