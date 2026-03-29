@@ -190,17 +190,6 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 | Token | Value (all breakpoints) |
 |-------|------------------------|
 | `spacing/none` | 0px |
-| `spacing/x1` | 4px |
-| `spacing/x2` | 8px |
-| `spacing/x3` | 12px |
-| `spacing/x4` | 16px |
-| `spacing/x5` | 20px |
-| `spacing/x6` | 24px |
-| `spacing/x8` | 32px |
-| `spacing/x10` | 40px |
-| `spacing/x12` | 48px |
-| `spacing/x14` | 56px |
-| `spacing/x20` | 80px |
 
 ### Spacing — Grid
 
@@ -215,6 +204,7 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 
 | Token | Widescreen | Desktop | Tablet | Mobile |
 |-------|-----------|---------|--------|--------|
+| `spacing/padding/xxs` | 4px | 4px | 4px | 4px |
 | `spacing/padding/xs` | 8px | 8px | 8px | 4px |
 | `spacing/padding/sm` | 12px | 12px | 8px | 8px |
 | `spacing/padding/md` | 16px | 16px | 12px | 12px |
@@ -235,7 +225,8 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 
 | Token | Widescreen | Desktop | Tablet | Mobile |
 |-------|-----------|---------|--------|--------|
-| `spacing/inline/xs` | 4px | 4px | 4px | 4px |
+| `spacing/inline/xxs` | 4px | 4px | 4px | 4px |
+| `spacing/inline/xs` | 8px | 8px | 8px | 8px |
 | `spacing/inline/sm` | 8px | 8px | 8px | 8px |
 | `spacing/inline/md` | 12px | 12px | 12px | 8px |
 | `spacing/inline/lg` | 16px | 16px | 16px | 12px |
