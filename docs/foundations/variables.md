@@ -190,13 +190,14 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 | Token | Value (all breakpoints) |
 |-------|------------------------|
 | `spacing/none` | 0px |
+| `spacing-1x` | 4px |
 
 ### Spacing — Grid
 
 | Token | Widescreen | Desktop | Tablet | Mobile |
 |-------|-----------|---------|--------|--------|
-| `spacing/grid/marginContentArea` | — | 32px | 16px | 16px |
-| `spacing/grid/marginPageShell` | — | 32px | 16px | 16px |
+| `spacing/grid/marginContentArea` | 24px | 32px | 16px | 16px |
+| `spacing/grid/marginPageShell` | 32px | 32px | 16px | 16px |
 | `spacing/grid/columns` | 12 | 12 | 8 | 4 |
 | `spacing/grid/gutter` | 20px | 20px | 16px | 12px |
 
@@ -208,18 +209,29 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 | `spacing/padding/xs` | 8px | 8px | 8px | 4px |
 | `spacing/padding/sm` | 12px | 12px | 8px | 8px |
 | `spacing/padding/md` | 16px | 16px | 12px | 12px |
-| `spacing/padding/lg` | 24px | 24px | 16px | 16px |
-| `spacing/padding/xl` | 32px | 32px | 24px | 20px |
+| `spacing/padding/lg` | 20px | 20px | 16px | 16px |
+| `spacing/padding/xl` | 24px | 24px | 16px | 16px |
+| `spacing/padding/xxl` | 32px | 32px | 24px | 20px |
+| `spacing/padding/3xl` | 40px | 40px | 32px | 24px |
+| `spacing/padding/4xl` | 48px | 48px | 40px | 32px |
+| `spacing/padding/5xl` | 56px | 56px | 48px | 40px |
+| `spacing/padding/6xl` | 80px | 80px | 64px | 48px |
 
 ### Spacing — Stack (vertical)
 
 | Token | Widescreen | Desktop | Tablet | Mobile |
 |-------|-----------|---------|--------|--------|
-| `spacing/stack/xs` | 4px | 4px | 4px | 4px |
-| `spacing/stack/sm` | 8px | 8px | 8px | 4px |
+| `spacing/stack/xxs` | 4px | 4px | 4px | 4px |
+| `spacing/stack/xs` | 8px | 8px | 8px | 4px |
+| `spacing/stack/sm` | 12px | 12px | 8px | 8px |
 | `spacing/stack/md` | 16px | 16px | 12px | 8px |
-| `spacing/stack/lg` | 24px | 24px | 20px | 16px |
-| `spacing/stack/xl` | 40px | 32px | 24px | 20px |
+| `spacing/stack/lg` | 20px | 20px | 16px | 16px |
+| `spacing/stack/xl` | 24px | 24px | 20px | 16px |
+| `spacing/stack/xxl` | 32px | 32px | 24px | 20px |
+| `spacing/stack/3xl` | 40px | 40px | 32px | 24px |
+| `spacing/stack/4xl` | 48px | 48px | 40px | 32px |
+| `spacing/stack/5xl` | 56px | 56px | 48px | 40px |
+| `spacing/stack/6xl` | 80px | 80px | 64px | 48px |
 
 ### Spacing — Inline (horizontal)
 
@@ -227,9 +239,15 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 |-------|-----------|---------|--------|--------|
 | `spacing/inline/xxs` | 4px | 4px | 4px | 4px |
 | `spacing/inline/xs` | 8px | 8px | 8px | 8px |
-| `spacing/inline/sm` | 8px | 8px | 8px | 8px |
-| `spacing/inline/md` | 12px | 12px | 12px | 8px |
-| `spacing/inline/lg` | 16px | 16px | 16px | 12px |
+| `spacing/inline/sm` | 12px | 12px | 12px | 8px |
+| `spacing/inline/md` | 16px | 16px | 16px | 12px |
+| `spacing/inline/lg` | 20px | 20px | 20px | 16px |
+| `spacing/inline/xl` | 24px | 24px | 24px | 20px |
+| `spacing/inline/xxl` | 32px | 32px | 32px | 24px |
+| `spacing/inline/3xl` | 40px | 40px | 40px | 32px |
+| `spacing/inline/4xl` | 48px | 48px | 48px | 40px |
+| `spacing/inline/5xl` | 56px | 56px | 56px | 48px |
+| `spacing/inline/6xl` | 80px | 80px | 80px | 64px |
 
 ### Typography — Font Size
 
@@ -262,6 +280,38 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 | `typography/font-size/button/button-sm` | 14px |
 | `typography/font-size/link/link` | 16px |
 | `typography/font-size/display/insightCard` | 32px (20px on Tablet/Mobile) |
+
+### Typography — Line Height
+
+#### Headings
+
+| Token | Widescreen / Desktop | Tablet / Mobile |
+|-------|---------------------|-----------------|
+| `typography/font-lineHeight/heading/heading-1` | 72px | 36px |
+| `typography/font-lineHeight/heading/heading-2` | 40px | 32px |
+| `typography/font-lineHeight/heading/heading-3` | 36px | 32px |
+| `typography/font-lineHeight/heading/heading-4` | 32px | 32px |
+| `typography/font-lineHeight/heading/heading-5` | 24px | 24px |
+
+#### Body
+
+| Token | Value (all breakpoints) |
+|-------|------------------------|
+| `typography/font-lineHeight/text/text-1` | 72px |
+| `typography/font-lineHeight/text/text-2` | 54px |
+| `typography/font-lineHeight/text/text-3` | 36px |
+| `typography/font-lineHeight/text/text-4` | 24px |
+| `typography/font-lineHeight/text/text-5` | 20px |
+| `typography/font-lineHeight/text/text-6` | 14px |
+
+#### Interactive & Display
+
+| Token | Value (all breakpoints) |
+|-------|------------------------|
+| `typography/font-lineHeight/button/button-lg` | 16px |
+| `typography/font-lineHeight/button/button-sm` | 14px |
+| `typography/font-lineHeight/link/link` | 24px |
+| `typography/font-lineHeight/display/insightCard` | 48px (32px on Tablet/Mobile) |
 
 ### Component Scale
 
@@ -307,18 +357,41 @@ Scale variables from the **1 SEMANTIC SCALE** collection. Many values are respon
 
 #### Other Components
 
-| Token | Value |
-|-------|-------|
-| `component-scale/field/min-height` | 44px |
-| `component-scale/max-width/textToolltip` | 240px |
-| `component-scale/max-width/compact-element` | 256px |
-| `component-scale/modal/alertModal` | 480px (388px mobile) |
-| `component-scale/headerSelectors/height` | 56px |
-| `component-scale/widgetHeader/small` | 64px |
-| `component-scale/widgetHeader/large` | 80px |
-| `component-scale/illustration/small` | 48px |
-| `component-scale/illustration/medium` | 64px |
-| `component-scale/illustration/large` | 152px |
+| Token | Widescreen | Desktop | Tablet | Mobile |
+|-------|-----------|---------|--------|--------|
+| `component-scale/field/min-height` | 44px | 44px | 44px | 44px |
+| `component-scale/headerSelectors/height` | 56px | 56px | 56px | 56px |
+| `component-scale/widgetHeader/small` | 64px | 64px | 64px | 64px |
+| `component-scale/widgetHeader/large` | 80px | 80px | 80px | 80px |
+| `component-scale/illustration/small` | 48px | 48px | 48px | 48px |
+| `component-scale/illustration/medium` | 64px | 64px | 64px | 64px |
+| `component-scale/illustration/large` | 152px | 152px | 152px | 152px |
+| `component-scale/modal/alertModal` | 480px | 480px | 480px | 388px |
+| `component-scale/max-width/textToolltip` | 240px | 240px | 240px | 240px |
+| `component-scale/max-width/compact-element` | 256px | 256px | 256px | 256px |
+| `component-scale/table-cells/min-width` | 132px | 132px | 132px | 132px |
+| `component-scale/table-cells/max-width` | 256px | 256px | 256px | 256px |
+| `component-scale/flyout/width` | 640px | 480px | — | — |
+| `component-scale/max-height/widget` | 1304px | 1311px | 727px | 361px |
+| `component-scale/max-height/gridViewCard` | 380px | 380px | 380px | 361px |
+| `component-scale/productSwitcher/width` | 342px | 342px | 1440px | 1440px |
+| `touchTarget` | 44px | 44px | 44px | 44px |
+
+#### Indicators
+
+| Token | Value (all breakpoints) |
+|-------|------------------------|
+| `component-scale/indicator/small` | 4px |
+| `component-scale/indicator/medium` | 16px |
+| `component-scale/indicator/large` | 16px |
+
+### Stroke
+
+| Token | Value (all breakpoints) |
+|-------|------------------------|
+| `stroke/divider` | 1px |
+| `stroke/border/default` | 1px |
+| `stroke/indicator/active` | 2px |
 
 ### Radius
 
