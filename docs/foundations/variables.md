@@ -12,163 +12,163 @@ Color variables from the **1 SEMANTIC COLOR** collection (Light mode). All value
 
 | Token | Hex | Primitive |
 |-------|-----|-----------|
-| `text/darker` | `#242528` | `color/grey/1100` |
-| `text/common` | `#4b4d53` | `color/grey/900` |
-| `text/subtle` | `#6f727b` | `color/grey/700` |
-| `text/inverse` | `#ffffff` | `color/grey/white` |
-| `text/disabled` | `#91949c` | `color/grey/600` |
-| `text/readonly` | `#4b4d53` | `color/grey/900` |
-| `text/placeholder` | `#6f727b` | `color/grey/700` |
-| `text/interactive/brand-default` | `#054ad1` | `color/blue/600` |
-| `text/interactive/brand-active` | `#003b8a` | `color/blue/700` |
-| `text/interactive/global` | `#55575e` | `color/grey/800` |
-| `text/interactive/global-inverse` | `#e1e3e9` | `color/grey/300` |
-| `text/interactive/link` | `#054ad1` | `color/blue/600` |
-| `text/status/error` | `#ba1309` | `color/red/600` |
-| `text/status/success` | `#4b4d53` | `color/grey/900` |
-| `text/status/warning` | `#4b4d53` | `color/grey/900` |
-| `text/info/red` | `#68170c` | `color/red/800` |
-| `text/info/yellow` | `#782d0d` | `color/yellow/800` |
-| `text/info/green` | `#094f2c` | `color/green/800` |
-| `text/info/teal` | `#003535` | `color/teal/800` |
-| `text/info/blue` | `#002352` | `color/blue/800` |
-| `text/info/purple` | `#300053` | `color/purple/800` |
+| `text/darker` | <ColorSwatch color="#242528" /> `#242528` | `color/grey/1100` |
+| `text/common` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
+| `text/subtle` | <ColorSwatch color="#6f727b" /> `#6f727b` | `color/grey/700` |
+| `text/inverse` | <ColorSwatch color="#ffffff" /> `#ffffff` | `color/grey/white` |
+| `text/disabled` | <ColorSwatch color="#91949c" /> `#91949c` | `color/grey/600` |
+| `text/readonly` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
+| `text/placeholder` | <ColorSwatch color="#6f727b" /> `#6f727b` | `color/grey/700` |
+| `text/interactive/brand-default` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `text/interactive/brand-active` | <ColorSwatch color="#003b8a" /> `#003b8a` | `color/blue/700` |
+| `text/interactive/global` | <ColorSwatch color="#55575e" /> `#55575e` | `color/grey/800` |
+| `text/interactive/global-inverse` | <ColorSwatch color="#e1e3e9" /> `#e1e3e9` | `color/grey/300` |
+| `text/interactive/link` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `text/status/error` | <ColorSwatch color="#ba1309" /> `#ba1309` | `color/red/600` |
+| `text/status/success` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
+| `text/status/warning` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
+| `text/info/red` | <ColorSwatch color="#68170c" /> `#68170c` | `color/red/800` |
+| `text/info/yellow` | <ColorSwatch color="#782d0d" /> `#782d0d` | `color/yellow/800` |
+| `text/info/green` | <ColorSwatch color="#094f2c" /> `#094f2c` | `color/green/800` |
+| `text/info/teal` | <ColorSwatch color="#003535" /> `#003535` | `color/teal/800` |
+| `text/info/blue` | <ColorSwatch color="#002352" /> `#002352` | `color/blue/800` |
+| `text/info/purple` | <ColorSwatch color="#300053" /> `#300053` | `color/purple/800` |
 
 ### Surface
 
 | Token | Hex | Primitive |
 |-------|-----|-----------|
-| `surface/primary` | `#ffffff` | `color/grey/white` |
-| `surface/secondary` | `#f1f1f5` | `color/grey/200` |
-| `surface/staqShell` | `#ffffff` | `color/grey/white` |
-| `surface/pageBackground` | `#ffffffcc` | `color/opacity/white-80%` |
-| `surface/brand-light` | `#e5f0ff` | `color/blue/100` |
-| `surface/interactive/unchecked` | `#c7cbd1` | `color/grey/400` |
-| `surface/interactive/disabled` | `#c7cbd1` | `color/grey/400` |
-| `surface/interactive/disabled-light` | `#f1f1f5` | `color/grey/200` |
-| `surface/interactive/readonly` | `#f5f6fa` | `color/grey/100` |
-| `surface/interactive/selector-hover` | `#f5f6fa` | `color/grey/100` |
-| `surface/interactive/selector-brand-active` | `#e5f0ff` | `color/blue/100` |
-| `surface/interactive/selector-global-active` | `#e1e3e9` | `color/grey/300` |
-| `surface/interactive/primary/brand-default` | `#054ad1` | `color/blue/600` |
-| `surface/interactive/primary/brand-hover` | `#003b8a` | `color/blue/700` |
-| `surface/interactive/primary/brand-active` | `#002352` | `color/blue/800` |
-| `surface/interactive/primary/white-label` | `#4b4d53` | `color/grey/900` |
-| `surface/interactive/secondary/brand-hover` | `#e5f0ff` | `color/blue/100` |
-| `surface/interactive/secondary/brand-active` | `#abd0fd` | `color/blue/200` |
-| `surface/interactive/tertiary/hover` | `#f1f1f5` | `color/grey/200` |
-| `surface/interactive/tertiary/active` | `#e1e3e9` | `color/grey/300` |
-| `surface/opacity/modal-background` | `#000000cc` | `color/opacity/black-80%` |
-| `surface/opacity/readonly-overlay` | `#f5f6fa80` | `color/opacity/grey-100-50%` |
-| `surface/charts/brand` | `#054ad1` | `color/blue/600` |
-| `surface/charts/brand-light` | `#e5f0ff` | `color/blue/100` |
-| `surface/charts/grey-graph` | `#a9aeb4` | `color/grey/500` |
-| `surface/status/error/error` | `#ba1309` | `color/red/600` |
-| `surface/status/error/error-hover` | `#921808` | `color/red/700` |
-| `surface/status/error/error-secondary` | `#ffdbd6` | `color/red/100` |
-| `surface/status/success/success` | `#0a7b48` | `color/green/600` |
-| `surface/status/success/success-secondary` | `#ccf2e0` | `color/green/100` |
-| `surface/status/info/red` | `#ffdbd6` | `color/red/100` |
-| `surface/status/info/yellow` | `#ffebc3` | `color/yellow/100` |
-| `surface/status/info/green` | `#ccf2e0` | `color/green/100` |
-| `surface/status/info/teal` | `#e5f6f6` | `color/teal/100` |
-| `surface/status/info/blue` | `#e5f0ff` | `color/blue/100` |
-| `surface/status/info/purple` | `#f4e5ff` | `color/purple/100` |
-| `surface/status/info/grey` | `#e1e3e9` | `color/grey/300` |
-| `surface/status/info/tooltip` | `#4b4d53` | `color/grey/900` |
+| `surface/primary` | <ColorSwatch color="#ffffff" /> `#ffffff` | `color/grey/white` |
+| `surface/secondary` | <ColorSwatch color="#f1f1f5" /> `#f1f1f5` | `color/grey/200` |
+| `surface/staqShell` | <ColorSwatch color="#ffffff" /> `#ffffff` | `color/grey/white` |
+| `surface/pageBackground` | <ColorSwatch color="#ffffffcc" /> `#ffffffcc` | `color/opacity/white-80%` |
+| `surface/brand-light` | <ColorSwatch color="#e5f0ff" /> `#e5f0ff` | `color/blue/100` |
+| `surface/interactive/unchecked` | <ColorSwatch color="#c7cbd1" /> `#c7cbd1` | `color/grey/400` |
+| `surface/interactive/disabled` | <ColorSwatch color="#c7cbd1" /> `#c7cbd1` | `color/grey/400` |
+| `surface/interactive/disabled-light` | <ColorSwatch color="#f1f1f5" /> `#f1f1f5` | `color/grey/200` |
+| `surface/interactive/readonly` | <ColorSwatch color="#f5f6fa" /> `#f5f6fa` | `color/grey/100` |
+| `surface/interactive/selector-hover` | <ColorSwatch color="#f5f6fa" /> `#f5f6fa` | `color/grey/100` |
+| `surface/interactive/selector-brand-active` | <ColorSwatch color="#e5f0ff" /> `#e5f0ff` | `color/blue/100` |
+| `surface/interactive/selector-global-active` | <ColorSwatch color="#e1e3e9" /> `#e1e3e9` | `color/grey/300` |
+| `surface/interactive/primary/brand-default` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `surface/interactive/primary/brand-hover` | <ColorSwatch color="#003b8a" /> `#003b8a` | `color/blue/700` |
+| `surface/interactive/primary/brand-active` | <ColorSwatch color="#002352" /> `#002352` | `color/blue/800` |
+| `surface/interactive/primary/white-label` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
+| `surface/interactive/secondary/brand-hover` | <ColorSwatch color="#e5f0ff" /> `#e5f0ff` | `color/blue/100` |
+| `surface/interactive/secondary/brand-active` | <ColorSwatch color="#abd0fd" /> `#abd0fd` | `color/blue/200` |
+| `surface/interactive/tertiary/hover` | <ColorSwatch color="#f1f1f5" /> `#f1f1f5` | `color/grey/200` |
+| `surface/interactive/tertiary/active` | <ColorSwatch color="#e1e3e9" /> `#e1e3e9` | `color/grey/300` |
+| `surface/opacity/modal-background` | <ColorSwatch color="#000000cc" /> `#000000cc` | `color/opacity/black-80%` |
+| `surface/opacity/readonly-overlay` | <ColorSwatch color="#f5f6fa80" /> `#f5f6fa80` | `color/opacity/grey-100-50%` |
+| `surface/charts/brand` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `surface/charts/brand-light` | <ColorSwatch color="#e5f0ff" /> `#e5f0ff` | `color/blue/100` |
+| `surface/charts/grey-graph` | <ColorSwatch color="#a9aeb4" /> `#a9aeb4` | `color/grey/500` |
+| `surface/status/error/error` | <ColorSwatch color="#ba1309" /> `#ba1309` | `color/red/600` |
+| `surface/status/error/error-hover` | <ColorSwatch color="#921808" /> `#921808` | `color/red/700` |
+| `surface/status/error/error-secondary` | <ColorSwatch color="#ffdbd6" /> `#ffdbd6` | `color/red/100` |
+| `surface/status/success/success` | <ColorSwatch color="#0a7b48" /> `#0a7b48` | `color/green/600` |
+| `surface/status/success/success-secondary` | <ColorSwatch color="#ccf2e0" /> `#ccf2e0` | `color/green/100` |
+| `surface/status/info/red` | <ColorSwatch color="#ffdbd6" /> `#ffdbd6` | `color/red/100` |
+| `surface/status/info/yellow` | <ColorSwatch color="#ffebc3" /> `#ffebc3` | `color/yellow/100` |
+| `surface/status/info/green` | <ColorSwatch color="#ccf2e0" /> `#ccf2e0` | `color/green/100` |
+| `surface/status/info/teal` | <ColorSwatch color="#e5f6f6" /> `#e5f6f6` | `color/teal/100` |
+| `surface/status/info/blue` | <ColorSwatch color="#e5f0ff" /> `#e5f0ff` | `color/blue/100` |
+| `surface/status/info/purple` | <ColorSwatch color="#f4e5ff" /> `#f4e5ff` | `color/purple/100` |
+| `surface/status/info/grey` | <ColorSwatch color="#e1e3e9" /> `#e1e3e9` | `color/grey/300` |
+| `surface/status/info/tooltip` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
 
 ### Icons
 
 | Token | Hex | Primitive |
 |-------|-----|-----------|
-| `icons/default` | `#4b4d53` | `color/grey/900` |
-| `icons/subtle` | `#6f727b` | `color/grey/700` |
-| `icons/inverse` | `#ffffff` | `color/grey/white` |
-| `icons/required` | `#e51b00` | `color/red/500` |
-| `icons/grey-graph` | `#a9aeb4` | `color/grey/500` |
-| `icons/interactive/brand-default` | `#054ad1` | `color/blue/600` |
-| `icons/interactive/global` | `#55575e` | `color/grey/800` |
-| `icons/interactive/global-inverse` | `#e1e3e9` | `color/grey/300` |
-| `icons/interactive/link` | `#054ad1` | `color/blue/600` |
-| `icons/status/error/default` | `#ba1309` | `color/red/600` |
-| `icons/status/error/accent` | `#68170c` | `color/red/800` |
-| `icons/status/success/default` | `#0a7b48` | `color/green/600` |
-| `icons/status/success/accent` | `#094f2c` | `color/green/800` |
-| `icons/status/warning/default` | `#dd5d00` | `color/yellow/600` |
-| `icons/status/warning/secondary` | `#ffebc3` | `color/yellow/100` |
-| `icons/status/warning/accent` | `#782d0d` | `color/yellow/800` |
-| `icons/status/info/default` | `#054ad1` | `color/blue/600` |
-| `icons/status/info/blue-accent` | `#002352` | `color/blue/800` |
-| `icons/status/info/teal-accent` | `#003535` | `color/teal/800` |
-| `icons/status/info/purple-accent` | `#300053` | `color/purple/800` |
-| `icons/status/info/giving/primary` | `#008484` | `color/teal/500` |
-| `icons/status/info/giving/teal-accent` | `#003535` | `color/teal/800` |
-| `icons/status/info/app studio/primary` | `#9300ff` | `color/purple/500` |
-| `icons/status/info/app studio/purple-accent` | `#300053` | `color/purple/800` |
-| `icons/status/disabled/default` | `#91949c` | `color/grey/600` |
-| `icons/status/disabled/darker` | `#6f727b` | `color/grey/700` |
-| `icons/status/disabled/accent` | `#f1f1f5` | `color/grey/200` |
-| `icons/status/disabled/on-accent` | `#c7cbd1` | `color/grey/400` |
-| `icons/status/readonly/default` | `#4b4d53` | `color/grey/900` |
+| `icons/default` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
+| `icons/subtle` | <ColorSwatch color="#6f727b" /> `#6f727b` | `color/grey/700` |
+| `icons/inverse` | <ColorSwatch color="#ffffff" /> `#ffffff` | `color/grey/white` |
+| `icons/required` | <ColorSwatch color="#e51b00" /> `#e51b00` | `color/red/500` |
+| `icons/grey-graph` | <ColorSwatch color="#a9aeb4" /> `#a9aeb4` | `color/grey/500` |
+| `icons/interactive/brand-default` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `icons/interactive/global` | <ColorSwatch color="#55575e" /> `#55575e` | `color/grey/800` |
+| `icons/interactive/global-inverse` | <ColorSwatch color="#e1e3e9" /> `#e1e3e9` | `color/grey/300` |
+| `icons/interactive/link` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `icons/status/error/default` | <ColorSwatch color="#ba1309" /> `#ba1309` | `color/red/600` |
+| `icons/status/error/accent` | <ColorSwatch color="#68170c" /> `#68170c` | `color/red/800` |
+| `icons/status/success/default` | <ColorSwatch color="#0a7b48" /> `#0a7b48` | `color/green/600` |
+| `icons/status/success/accent` | <ColorSwatch color="#094f2c" /> `#094f2c` | `color/green/800` |
+| `icons/status/warning/default` | <ColorSwatch color="#dd5d00" /> `#dd5d00` | `color/yellow/600` |
+| `icons/status/warning/secondary` | <ColorSwatch color="#ffebc3" /> `#ffebc3` | `color/yellow/100` |
+| `icons/status/warning/accent` | <ColorSwatch color="#782d0d" /> `#782d0d` | `color/yellow/800` |
+| `icons/status/info/default` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `icons/status/info/blue-accent` | <ColorSwatch color="#002352" /> `#002352` | `color/blue/800` |
+| `icons/status/info/teal-accent` | <ColorSwatch color="#003535" /> `#003535` | `color/teal/800` |
+| `icons/status/info/purple-accent` | <ColorSwatch color="#300053" /> `#300053` | `color/purple/800` |
+| `icons/status/info/giving/primary` | <ColorSwatch color="#008484" /> `#008484` | `color/teal/500` |
+| `icons/status/info/giving/teal-accent` | <ColorSwatch color="#003535" /> `#003535` | `color/teal/800` |
+| `icons/status/info/app studio/primary` | <ColorSwatch color="#9300ff" /> `#9300ff` | `color/purple/500` |
+| `icons/status/info/app studio/purple-accent` | <ColorSwatch color="#300053" /> `#300053` | `color/purple/800` |
+| `icons/status/disabled/default` | <ColorSwatch color="#91949c" /> `#91949c` | `color/grey/600` |
+| `icons/status/disabled/darker` | <ColorSwatch color="#6f727b" /> `#6f727b` | `color/grey/700` |
+| `icons/status/disabled/accent` | <ColorSwatch color="#f1f1f5" /> `#f1f1f5` | `color/grey/200` |
+| `icons/status/disabled/on-accent` | <ColorSwatch color="#c7cbd1" /> `#c7cbd1` | `color/grey/400` |
+| `icons/status/readonly/default` | <ColorSwatch color="#4b4d53" /> `#4b4d53` | `color/grey/900` |
 
 ### Border
 
 | Token | Hex | Primitive |
 |-------|-----|-----------|
-| `border/decorative/default` | `#e1e3e9` | `color/grey/300` |
-| `border/decorative/inverse` | `#ffffff` | `color/grey/white` |
-| `border/interactive/default` | `#a9aeb4` | `color/grey/500` |
-| `border/interactive/hover` | `#91949c` | `color/grey/600` |
-| `border/interactive/active` | `#242528` | `color/grey/1100` |
-| `border/interactive/focus` | `#242528` | `color/grey/1100` |
-| `border/interactive/disabled` | `#91949c` | `color/grey/600` |
-| `border/interactive/disabled-light` | `#e1e3e9` | `color/grey/300` |
-| `border/interactive/unchecked` | `#a9aeb4` | `color/grey/500` |
-| `border/interactive/read-only` | `#a9aeb4` | `color/grey/500` |
-| `border/brand/default` | `#054ad1` | `color/blue/600` |
-| `border/brand/brand-active` | `#002352` | `color/blue/800` |
-| `border/brand/split button` | `#003b8a` | `color/blue/700` |
-| `border/status/error` | `#ba1309` | `color/red/600` |
-| `border/status/success` | `#0a7b48` | `color/green/600` |
-| `border/status/warning` | `#dd5d00` | `color/yellow/600` |
-| `border/status/info` | `#054ad1` | `color/blue/600` |
-| `border/info/blue` | `#006afa` | `color/blue/500` |
-| `border/info/blue-accent` | `#002352` | `color/blue/800` |
-| `border/info/teal` | `#008484` | `color/teal/500` |
-| `border/info/teal-accent` | `#003535` | `color/teal/800` |
-| `border/info/purple` | `#9300ff` | `color/purple/500` |
-| `border/info/purple-accent` | `#300053` | `color/purple/800` |
+| `border/decorative/default` | <ColorSwatch color="#e1e3e9" /> `#e1e3e9` | `color/grey/300` |
+| `border/decorative/inverse` | <ColorSwatch color="#ffffff" /> `#ffffff` | `color/grey/white` |
+| `border/interactive/default` | <ColorSwatch color="#a9aeb4" /> `#a9aeb4` | `color/grey/500` |
+| `border/interactive/hover` | <ColorSwatch color="#91949c" /> `#91949c` | `color/grey/600` |
+| `border/interactive/active` | <ColorSwatch color="#242528" /> `#242528` | `color/grey/1100` |
+| `border/interactive/focus` | <ColorSwatch color="#242528" /> `#242528` | `color/grey/1100` |
+| `border/interactive/disabled` | <ColorSwatch color="#91949c" /> `#91949c` | `color/grey/600` |
+| `border/interactive/disabled-light` | <ColorSwatch color="#e1e3e9" /> `#e1e3e9` | `color/grey/300` |
+| `border/interactive/unchecked` | <ColorSwatch color="#a9aeb4" /> `#a9aeb4` | `color/grey/500` |
+| `border/interactive/read-only` | <ColorSwatch color="#a9aeb4" /> `#a9aeb4` | `color/grey/500` |
+| `border/brand/default` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `border/brand/brand-active` | <ColorSwatch color="#002352" /> `#002352` | `color/blue/800` |
+| `border/brand/split button` | <ColorSwatch color="#003b8a" /> `#003b8a` | `color/blue/700` |
+| `border/status/error` | <ColorSwatch color="#ba1309" /> `#ba1309` | `color/red/600` |
+| `border/status/success` | <ColorSwatch color="#0a7b48" /> `#0a7b48` | `color/green/600` |
+| `border/status/warning` | <ColorSwatch color="#dd5d00" /> `#dd5d00` | `color/yellow/600` |
+| `border/status/info` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `border/info/blue` | <ColorSwatch color="#006afa" /> `#006afa` | `color/blue/500` |
+| `border/info/blue-accent` | <ColorSwatch color="#002352" /> `#002352` | `color/blue/800` |
+| `border/info/teal` | <ColorSwatch color="#008484" /> `#008484` | `color/teal/500` |
+| `border/info/teal-accent` | <ColorSwatch color="#003535" /> `#003535` | `color/teal/800` |
+| `border/info/purple` | <ColorSwatch color="#9300ff" /> `#9300ff` | `color/purple/500` |
+| `border/info/purple-accent` | <ColorSwatch color="#300053" /> `#300053` | `color/purple/800` |
 
 ### Cosmetic
 
 | Token | Hex | Primitive |
 |-------|-----|-----------|
-| `Cosmetic/key/grey` | `#a9aeb4` | `color/grey/500` |
-| `Cosmetic/key/red` | `#e51b00` | `color/red/500` |
-| `Cosmetic/key/yellow` | `#ffaa00` | `color/yellow/400` |
-| `Cosmetic/key/green` | `#27a86c` | `color/green/400` |
-| `Cosmetic/key/teal` | `#008484` | `color/teal/500` |
-| `Cosmetic/key/teal-accent` | `#004f4f` | `color/teal/700` |
-| `Cosmetic/key/blue` | `#006afa` | `color/blue/500` |
-| `Cosmetic/key/blue-accent` | `#003b8a` | `color/blue/700` |
-| `Cosmetic/key/purple` | `#9300ff` | `color/purple/500` |
-| `Cosmetic/key/purple-accent` | `#51008c` | `color/purple/700` |
-| `Cosmetic/illustrations/brand` | `#054ad1` | `color/blue/600` |
-| `Cosmetic/illustrations/brand-light` | `#abd0fd` | `color/blue/200` |
-| `Cosmetic/illustrations/internal-outline` | `#a9aeb4` | `color/grey/500` |
-| `Cosmetic/illustrations/surface` | `#ffffff` | `color/grey/white` |
-| `Cosmetic/illustrations/surface-grey` | `#f5f6fa` | `color/grey/100` |
+| `Cosmetic/key/grey` | <ColorSwatch color="#a9aeb4" /> `#a9aeb4` | `color/grey/500` |
+| `Cosmetic/key/red` | <ColorSwatch color="#e51b00" /> `#e51b00` | `color/red/500` |
+| `Cosmetic/key/yellow` | <ColorSwatch color="#ffaa00" /> `#ffaa00` | `color/yellow/400` |
+| `Cosmetic/key/green` | <ColorSwatch color="#27a86c" /> `#27a86c` | `color/green/400` |
+| `Cosmetic/key/teal` | <ColorSwatch color="#008484" /> `#008484` | `color/teal/500` |
+| `Cosmetic/key/teal-accent` | <ColorSwatch color="#004f4f" /> `#004f4f` | `color/teal/700` |
+| `Cosmetic/key/blue` | <ColorSwatch color="#006afa" /> `#006afa` | `color/blue/500` |
+| `Cosmetic/key/blue-accent` | <ColorSwatch color="#003b8a" /> `#003b8a` | `color/blue/700` |
+| `Cosmetic/key/purple` | <ColorSwatch color="#9300ff" /> `#9300ff` | `color/purple/500` |
+| `Cosmetic/key/purple-accent` | <ColorSwatch color="#51008c" /> `#51008c` | `color/purple/700` |
+| `Cosmetic/illustrations/brand` | <ColorSwatch color="#054ad1" /> `#054ad1` | `color/blue/600` |
+| `Cosmetic/illustrations/brand-light` | <ColorSwatch color="#abd0fd" /> `#abd0fd` | `color/blue/200` |
+| `Cosmetic/illustrations/internal-outline` | <ColorSwatch color="#a9aeb4" /> `#a9aeb4` | `color/grey/500` |
+| `Cosmetic/illustrations/surface` | <ColorSwatch color="#ffffff" /> `#ffffff` | `color/grey/white` |
+| `Cosmetic/illustrations/surface-grey` | <ColorSwatch color="#f5f6fa" /> `#f5f6fa` | `color/grey/100` |
 
 ### Elevation Colors
 
 | Token | Hex | Primitive |
 |-------|-----|-----------|
-| `elevation/level-1/Color` | `#0f001a14` | `color/opacity/elevation-8%` |
-| `elevation/level-2/shadow-1/Color` | `#0f001a1a` | `color/opacity/elevation-10%` |
-| `elevation/level-2/shadow-2/Color` | `#0f001a0f` | `color/opacity/elevation-6%` |
-| `elevation/level-3/shadow-1/Color` | `#0f001a1f` | `color/opacity/elevation-12%` |
-| `elevation/level-3/shadow-2/Color` | `#0f001a14` | `color/opacity/elevation-8%` |
-| `elevation/shell/color` | `#00000040` | `color/opacity/elevation-25%` |
+| `elevation/level-1/Color` | <ColorSwatch color="#0f001a14" /> `#0f001a14` | `color/opacity/elevation-8%` |
+| `elevation/level-2/shadow-1/Color` | <ColorSwatch color="#0f001a1a" /> `#0f001a1a` | `color/opacity/elevation-10%` |
+| `elevation/level-2/shadow-2/Color` | <ColorSwatch color="#0f001a0f" /> `#0f001a0f` | `color/opacity/elevation-6%` |
+| `elevation/level-3/shadow-1/Color` | <ColorSwatch color="#0f001a1f" /> `#0f001a1f` | `color/opacity/elevation-12%` |
+| `elevation/level-3/shadow-2/Color` | <ColorSwatch color="#0f001a14" /> `#0f001a14` | `color/opacity/elevation-8%` |
+| `elevation/shell/color` | <ColorSwatch color="#00000040" /> `#00000040` | `color/opacity/elevation-25%` |
 
 ---
 
